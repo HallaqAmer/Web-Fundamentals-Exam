@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We collect</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+        <div id="nav-bar">
+            <h1><img src="assets/icon1.png" alt="it-photo"> WE COLLECT YOUR IT <span id="arrow">&#8617;</span></h1>
+            <ul>
+                <li class="border-list">Home</li>
+                <li class="border-list">About us</li>
+                <li class="border-list">Book a collection</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div id="first-portion">
+        <div class="first_portion-left">
+            <h1>Helping others with your <br> computer</h1>
+            <div>
+                <p>A computer is a vital tool for anyone living in this day and age.</p>
+                <p>This is why we aim to donate every 1 in 10 computers we collect</p>
+                <p>to charitable and worthy causes.</p> 
+            </div>
+            <button class="btn" onclick="displayAlert()" onmouseover="changeStyle(this)" onmouseout="keepStyle(this)">Learn More >></button>
+        </div>
+        <div class="first_portion-right">
+            <img src="assets/main_img.png" alt="child-photo">
+        </div>
+    </div>
+    <div id="second-portion">
+        <div class="second_portion-left">
+            <div class="second_portion_left-top">
+                <div class="column">
+                    <h2><img src="assets/icon2.png" alt="icon-photo"> Safe & Secure</h2>
+                    <p>We ensure all previously stored</p>
+                    <p>information on any of the systems</p>
+                    <p>we collect is either removed, given</p>
+                    <p>to you, or destroyed.</p>
+                </div>
+                <div class="column">
+                    <h2><img src="assets/icon3.png" alt="icon-photo"> Eco-Friendly</h2>
+                    <p>We aim to reuse all that we collect</p>
+                    <p>from you. reducing wastage and</p>
+                    <p>the manufacture of new systems</p>
+                    <p>has a range of benefit for our</p>
+                    <p>future on this planet.</p>
+                </div>
+                <div class="column" id="col-border-none">
+                    <h2><img src="assets/icon4.png" alt="icon-photo"> Helping Others</h2>
+                    <p>We donate 1 in 10 the machines</p>
+                    <p>to charities and worthy causes.</p>
+                    <p>This helps grow individuals who</p>
+                    <p>are in need of the benefits a</p>
+                    <p>computer can bring.</p>
+                </div>
+            </div>
+            <div class="second_portion_left-down">
+                <h2>Welcome to We Collect your IT</h2>
+                <p>We offer a free collection service across the UK for the removal of your old IT systems. We safely reuse this</p>
+                <p>equipment by ensuring any sensitive or personal information that was on these machines is either physically</p>
+                <p>removed or destroyed before we reuse them. Using us shall not only ebnefit the environment by avoiding the</p>
+                <p>waste and disposal of this equipment but shall also help others, as we donate and proportion of all the</p>
+                <p>equipment we collect</p>
+            </div>
+        </div>
+        <div class="second_portion-right">
+            <h2>Why waste? We <br>
+                will collect....
+            </h2>
+            <div class="second_portion_right-content">
+                <p>
+                    The environmental and social<br>
+                    benefits of reuse do not only<br>
+                    help conserve natural<br>
+                    resources, but help reduce air<br>
+                    and water pollution caused by<br>
+                    hazardous disposal.Reuse<br>
+                    reduces the amount of<br>
+                    greenhouse gas emissions<br>
+                    caused by the manufacturing<br>
+                    of new products. It simply<br>
+                    makes good sense to let us<br>
+                    collect and reuse your<br>
+                    equipment.
+                </p>
+                <img src="assets/recycle.png" alt="recycle-photo">
+            </div>
+            <a href="#">Read more >></a>
+        </div>
+    </div>
+    <div id="third-portion">
+        <div class="third-portion_col-1">
+            <h2>Contact us</h2>
+            <p>We collect your IT</p>
+            <p>Leading Computers Ltd</p>
+            <p>27 Vesta Avenue</p>
+            <p>St Albans, Hertfordshire</p>
+            <p id="email_address">info@we-collect-your-it.co.uk</p>
+        </div>
+        <div class="third-portion_col-2">
+            <h2>Support and help</h2>
+            <ul class="support-links">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">How we work</a></li>
+                <li><a href="#">Helping others</a></li>
+                <li><a href="#">Book a collection</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            
+        </div>
+        <div class="third-portion_col-3">
+            <h2>Want us to get in touch with you</h2>
+            <p>Leave us your name, number and e-mail address and <br>
+                someone will get in touch.
+            </p>
+            <form>
+                <div class="form_top">
+                    <input type="text" name="name" id="name" placeholder="name">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form_down">
+                <input type="text" name="phone no" id="phone_no" placeholder="Phone no">
+                <input type="submit" value="Submit" id="submit_btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <p>We Collect Your IT is a project set up by leading computers Ltd. Copyright ⓒ 2011 All rights reserved.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
